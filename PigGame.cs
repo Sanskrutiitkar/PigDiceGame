@@ -40,7 +40,7 @@ namespace PigGame
                 else if (input.ToLower() == "h")
                 {
                     totalScore += turnScore;
-                    Console.WriteLine("Your turn score is {0} and your total score is {1}", totalScore, totalScore);
+                    Console.WriteLine("Your turn score is {0} and your total score is {1}", turnScore, totalScore);
                     turnScore = 0;
                     turn++;
                 }
